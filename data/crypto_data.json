@@ -26,6 +26,35 @@
         ]
       }
     },
+    "Ethereum": {
+      "id": 1027,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "urls": {
+        "twitter": [
+          "https://twitter.com/ethereum"
+        ],
+        "reddit": [
+          "https://reddit.com/r/ethereum"
+        ],
+        "facebook": [],
+        "source_code": [
+          "https://github.com/ethereum/go-ethereum"
+        ],
+        "website": [
+          "https://www.ethereum.org/",
+          "https://en.wikipedia.org/wiki/Ethereum"
+        ],
+        "explorer": [
+          "https://etherscan.io/",
+          "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "https://solscan.io/token/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+          "https://bscscan.com/token/0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+          "https://www.okx.com/web3/explorer/eth"
+        ]
+      }
+    },
     "Solana": {
       "id": 5426,
       "name": "Solana",
@@ -175,5 +204,5 @@
       }
     }
   },
-  "last_updated": "2025-11-25T18:16:45.131Z"
+  "last_updated": "2025-11-25T18:19:02.757Z"
 }
