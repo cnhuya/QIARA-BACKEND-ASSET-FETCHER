@@ -7,7 +7,9 @@
       "slug": "bitcoin",
       "urls": {
         "twitter": [],
-        "reddit": [],
+        "reddit": [
+          "https://reddit.com/r/bitcoin"
+        ],
         "facebook": [],
         "source_code": [
           "https://github.com/bitcoin/bitcoin"
@@ -22,6 +24,11 @@
           "https://explorer.viabtc.com/btc",
           "https://www.okx.com/web3/explorer/btc"
         ]
+      },
+      "tokenomics": {
+        "circulating_supply": 19953446,
+        "total_supply": 19953446,
+        "max_supply": 21000000
       }
     },
     "Solana": {
@@ -33,7 +40,9 @@
         "twitter": [
           "https://twitter.com/solana"
         ],
-        "reddit": [],
+        "reddit": [
+          "https://reddit.com/r/solana"
+        ],
         "facebook": [],
         "source_code": [
           "https://github.com/solana-labs"
@@ -48,6 +57,11 @@
           "https://solana.fm/",
           "https://solscan.io/"
         ]
+      },
+      "tokenomics": {
+        "circulating_supply": 559262091.7138689,
+        "total_supply": 614794505.7398221,
+        "max_supply": null
       }
     },
     "Injective": {
@@ -73,6 +87,11 @@
           "https://etherscan.io/token/0xe28b3b32b6c345a34ff64674606124dd5aceca30",
           "https://www.okx.com/web3/explorer/eth/token/0xe28b3b32b6c345a34ff64674606124dd5aceca30"
         ]
+      },
+      "tokenomics": {
+        "circulating_supply": 99970935.41,
+        "total_supply": 100000000,
+        "max_supply": null
       }
     },
     "Sui": {
@@ -98,6 +117,11 @@
           "https://suiscan.xyz/mainnet/home",
           "https://www.okx.com/web3/explorer/sui"
         ]
+      },
+      "tokenomics": {
+        "circulating_supply": 3681325480.198332,
+        "total_supply": 10000000000,
+        "max_supply": 10000000000
       }
     },
     "Virtuals Protocol": {
@@ -123,6 +147,11 @@
           "https://solscan.io/token/3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
           "https://basescan.org/token/0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b"
         ]
+      },
+      "tokenomics": {
+        "circulating_supply": 656082020.5934123,
+        "total_supply": 1000000000,
+        "max_supply": 1000000000
       }
     },
     "DeepBook Protocol": {
@@ -146,6 +175,11 @@
           "https://suivision.xyz/coin/0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
           "https://suiscan.xyz/mainnet/coin/0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP/txs"
         ]
+      },
+      "tokenomics": {
+        "circulating_supply": 4368147611.05556,
+        "total_supply": 10000000000,
+        "max_supply": 10000000000
       }
     },
     "SUPRA": {
@@ -168,8 +202,13 @@
         "explorer": [
           "https://suprascan.io/"
         ]
+      },
+      "tokenomics": {
+        "circulating_supply": 21010188324.918167,
+        "total_supply": 80625230337.67656,
+        "max_supply": 100000000000
       }
     }
   },
-  "last_updated": "2025-11-25T14:51:24.917Z"
+  "last_updated": "2025-11-25T15:10:27.171Z"
 }
