@@ -1,25 +1,24 @@
 
 import axios from 'axios';
-import fs from 'fs';
-import path from 'path';
 import { fileURLToPath } from 'url';
 import { Octokit } from 'octokit';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const octokit = new Octokit({
-    auth: process.env.GITHUB_TOKEN // Your personal access token
+    auth: process.env.GITHUB_TOKEN
   });
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 
-const REPO_OWNER = 'your-username';
-const REPO_NAME = 'your-repo-name';
+const REPO_OWNER = 'cnhuya';
+const REPO_NAME = 'QIARA-BACKEND-ASSET-FETCHER';
 const FILE_PATH = 'data/crypto_data.json'; // Path in your repo
 
-const COINMARKETCAP_API_KEY = '4f3141f7-70fa-41c5-8d69-a739635bf5d9';
 const BASE_URL = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest';
 const URL = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/map';
+
 var cnfg = {
     currencies: 'bitcoin,sui,solana,injective,deepbook,virtuals'
 }
@@ -28,7 +27,7 @@ export async function fetchCryptoMetadata() {
     try {
       const response = await axios.get('https://pro-api.coinmarketcap.com/v2/cryptocurrency/info', {
         headers: {
-          'X-CMC_PRO_API_KEY': COINMARKETCAP_API_KEY,
+          'X-CMC_PRO_API_KEY': process.env.COINMARKETCAP_API_KEY,
         },
         params: {
             slug: 'bitcoin,sui,solana,injective,deepbook-protocol,virtual-protocol,supra',
@@ -60,7 +59,7 @@ export async function fetchCryptos() {
     try {
       const response = await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', {
         headers: {
-          'X-CMC_PRO_API_KEY': COINMARKETCAP_API_KEY,
+          'X-CMC_PRO_API_KEY': process.env.COINMARKETCAP_API_KEY,
         },
         params: {
           start: '1',
@@ -120,7 +119,7 @@ export async function fetchCryptoPrices() {
   try {
     const response = await axios.get(BASE_URL, {
       headers: {
-        'X-CMC_PRO_API_KEY': COINMARKETCAP_API_KEY,
+        'X-CMC_PRO_API_KEY': process.env.COINMARKETCAP_API_KEY,
       },
       params: {
         slug: 'bitcoin,sui,solana,injective,deepbook-protocol,virtual-protocol,supra',
@@ -190,16 +189,11 @@ export async function buildAllCryptos() {
         console.log('🏗️ Built structured crypto data:');
         console.log('Prices data available:', prices?.length || 0, 'assets');
         console.log(structuredData);
-        // Save to JSON file
-        const filename = `crypto_data_${Date.now()}.json`;
-        const data = {data: structuredData, last_updated: new Date().toISOString()};
         
+        const data = {data: structuredData, last_updated: new Date().toISOString()};
+
         await uploadToGitHub(JSON.stringify(data, null, 2));
 
-        const filePath = path.join(__dirname, filename);
-        
-        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-        console.log(`💾 Data saved to: ${filename}`);
 
         return data;
 
