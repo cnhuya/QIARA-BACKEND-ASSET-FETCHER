@@ -1,0 +1,254 @@
+{
+  "data": {
+    "Bitcoin": {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "urls": {
+        "website": [
+          "https://bitcoin.org/"
+        ],
+        "twitter": [],
+        "message_board": [
+          "https://bitcointalk.org"
+        ],
+        "chat": [],
+        "facebook": [],
+        "explorer": [
+          "https://blockchain.info/",
+          "https://live.blockcypher.com/btc/",
+          "https://blockchair.com/bitcoin",
+          "https://explorer.viabtc.com/btc",
+          "https://www.okx.com/web3/explorer/btc"
+        ],
+        "reddit": [
+          "https://reddit.com/r/bitcoin"
+        ],
+        "technical_doc": [
+          "https://bitcoin.org/bitcoin.pdf"
+        ],
+        "source_code": [
+          "https://github.com/bitcoin/bitcoin"
+        ],
+        "announcement": []
+      }
+    },
+    "Solana": {
+      "id": 5426,
+      "name": "Solana",
+      "symbol": "SOL",
+      "slug": "solana",
+      "urls": {
+        "website": [
+          "https://solana.com"
+        ],
+        "twitter": [
+          "https://twitter.com/solana"
+        ],
+        "message_board": [
+          "https://solana.com/news",
+          "https://forums.solana.com"
+        ],
+        "chat": [
+          "https://solana.com/discord",
+          "https://t.me/solana"
+        ],
+        "facebook": [],
+        "explorer": [
+          "https://solscan.io/token/So11111111111111111111111111111111111111111",
+          "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=So11111111111111111111111111111111111111112",
+          "https://explorer.solana.com",
+          "https://solana.fm/",
+          "https://solscan.io/"
+        ],
+        "reddit": [
+          "https://reddit.com/r/solana"
+        ],
+        "technical_doc": [
+          "https://solana.com/solana-whitepaper.pdf"
+        ],
+        "source_code": [
+          "https://github.com/solana-labs"
+        ],
+        "announcement": [
+          "https://coinmarketcap.com/community/profile/Solana/"
+        ]
+      }
+    },
+    "Injective": {
+      "id": 7226,
+      "name": "Injective",
+      "symbol": "INJ",
+      "slug": "injective",
+      "urls": {
+        "website": [
+          "https://injective.com"
+        ],
+        "twitter": [
+          "https://twitter.com/Injective_"
+        ],
+        "message_board": [],
+        "chat": [
+          "https://discord.gg/injective",
+          "https://t.me/joininjective"
+        ],
+        "facebook": [],
+        "explorer": [
+          "https://explorer.injective.network",
+          "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+          "https://etherscan.io/token/0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+          "https://www.okx.com/web3/explorer/eth/token/0xe28b3b32b6c345a34ff64674606124dd5aceca30"
+        ],
+        "reddit": [],
+        "technical_doc": [
+          "https://docs.injectiveprotocol.com/#introduction"
+        ],
+        "source_code": [
+          "https://github.com/InjectiveLabs"
+        ],
+        "announcement": [
+          "https://blog.injective.com"
+        ]
+      }
+    },
+    "Sui": {
+      "id": 20947,
+      "name": "Sui",
+      "symbol": "SUI",
+      "slug": "sui",
+      "urls": {
+        "website": [
+          "https://sui.io/"
+        ],
+        "twitter": [
+          "https://twitter.com/SuiNetwork"
+        ],
+        "message_board": [
+          "https://blog.sui.io/"
+        ],
+        "chat": [
+          "https://discord.gg/sui"
+        ],
+        "facebook": [],
+        "explorer": [
+          "https://suiexplorer.com/",
+          "https://suivision.xyz/",
+          "https://suiscan.xyz/mainnet/home",
+          "https://www.okx.com/web3/explorer/sui"
+        ],
+        "reddit": [],
+        "technical_doc": [
+          "https://docs.sui.io/"
+        ],
+        "source_code": [
+          "https://github.com/MystenLabs"
+        ],
+        "announcement": []
+      }
+    },
+    "Virtuals Protocol": {
+      "id": 29420,
+      "name": "Virtuals Protocol",
+      "symbol": "VIRTUAL",
+      "slug": "virtual-protocol",
+      "urls": {
+        "website": [
+          "https://www.virtuals.io/"
+        ],
+        "twitter": [
+          "https://twitter.com/virtuals_io"
+        ],
+        "message_board": [],
+        "chat": [
+          "https://t.me/virtuals"
+        ],
+        "facebook": [],
+        "explorer": [
+          "https://etherscan.io/token/0x44ff8620b8cA30902395A7bD3F2407e1A091BF73",
+          "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x44ff8620b8cA30902395A7bD3F2407e1A091BF73",
+          "https://solscan.io/token/3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+          "https://basescan.org/token/0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b"
+        ],
+        "reddit": [],
+        "technical_doc": [
+          "https://whitepaper.virtuals.io/"
+        ],
+        "source_code": [
+          "https://github.com/Virtual-Protocol"
+        ],
+        "announcement": [
+          "https://x.com/virtuals_io"
+        ]
+      }
+    },
+    "DeepBook Protocol": {
+      "id": 33391,
+      "name": "DeepBook Protocol",
+      "symbol": "DEEP",
+      "slug": "deepbook-protocol",
+      "urls": {
+        "website": [
+          "https://deepbook.tech/"
+        ],
+        "twitter": [
+          "https://twitter.com/DeepBookonSui"
+        ],
+        "message_board": [],
+        "chat": [
+          "https://discord.gg/deepbook"
+        ],
+        "facebook": [],
+        "explorer": [
+          "https://suivision.xyz/coin/0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+          "https://suiscan.xyz/mainnet/coin/0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP/txs"
+        ],
+        "reddit": [],
+        "technical_doc": [
+          "https://drive.google.com/file/d/12JaXqshtbIgyvWIxV8j2GVRCINafqYqe/view"
+        ],
+        "source_code": [
+          "https://github.com/MystenLabs/deepbookv3"
+        ],
+        "announcement": []
+      }
+    },
+    "SUPRA": {
+      "id": 34240,
+      "name": "SUPRA",
+      "symbol": "SUPRA",
+      "slug": "supra",
+      "urls": {
+        "website": [
+          "https://supra.com/"
+        ],
+        "twitter": [
+          "https://twitter.com/SUPRA_Labs"
+        ],
+        "message_board": [
+          "https://supra.com/academy/",
+          "https://medium.com/@SupraOracles"
+        ],
+        "chat": [
+          "https://discord.gg/supralabs",
+          "https://t.me/SupraOracles"
+        ],
+        "facebook": [],
+        "explorer": [
+          "https://suprascan.io/"
+        ],
+        "reddit": [],
+        "technical_doc": [
+          "https://supra.com/research/#whitepapers"
+        ],
+        "source_code": [
+          "https://github.com/Entropy-Foundation"
+        ],
+        "announcement": [
+          "https://x.com/SUPRA_Labs"
+        ]
+      }
+    }
+  },
+  "last_updated": "2025-11-25T13:59:07.778Z"
+}
